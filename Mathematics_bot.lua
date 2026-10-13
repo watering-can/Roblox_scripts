@@ -25,7 +25,7 @@ task.spawn(function()
 	while task.wait() do
 		if disconnect_timer == 170 then
 			tcs.TextChannels.RBXGeneral:SendAsync("Thank you for using the bot! Switching servers...")
-			queue_on_teleport()
+			queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/watering-can/Roblox_scripts/refs/heads/main/Mathematics_bot.lua'))()")
 		end
 
 		if disconnect_timer == 180 then
