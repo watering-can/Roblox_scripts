@@ -29,7 +29,7 @@ task.spawn(function()
 		end
 
 		if disconnect_timer == 180 then
-			ts:TeleportAsync(game.PlaceId, game.Players.LocalPlayer)
+			ts:Teleport(game.PlaceId, game.Players.LocalPlayer)
 		end
 	end
 end)
